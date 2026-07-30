@@ -5,9 +5,10 @@ class Main {
 
         Scanner sc=new Scanner(System.in);
 
+        System.out.println("Enter the string: ");
         String s=sc.nextLine();
 
-        //String s = "abcabcbb";
+
         Set<Character> set = new HashSet<>();
 
         int left = 0, maxLength = 0;
